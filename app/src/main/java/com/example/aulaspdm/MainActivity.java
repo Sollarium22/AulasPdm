@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     Button bCalC;
     Button bCreditos;
 
+    Button bVoltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         bCalT = findViewById(R.id.bCalT);
         bCalC = findViewById(R.id.bCalC);
         bCreditos = findViewById(R.id.bCreditos);
+
         bJogo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
