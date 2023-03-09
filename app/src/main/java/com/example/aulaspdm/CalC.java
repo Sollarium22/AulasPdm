@@ -1,14 +1,14 @@
 package com.example.aulaspdm;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class Configuracoes extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class CalC extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_configuracoes);
+        setContentView(R.layout.activity_calc);
     }
 }

@@ -15,12 +15,6 @@
             android:name=".Creditos"
             android:exported="false" />
         <activity
-            android:name=".Configuracoes"
-            android:exported="false" />
-        <activity
-            android:name=".Ranking"
-            android:exported="false" />
-        <activity
             android:name=".CalBasi"
             android:exported="false" />
         <activity

@@ -1,14 +1,14 @@
 package com.example.aulaspdm;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class Ranking extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class CalT extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ranking);
+        setContentView(R.layout.activity_cal);
     }
 }
