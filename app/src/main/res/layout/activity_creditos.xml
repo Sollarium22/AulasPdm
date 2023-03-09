@@ -15,7 +15,7 @@
         android:layout_marginEnd="118dp"
         android:scaleX="2"
         android:scaleY="2"
-        android:text="Ainda não foi encrementado"
+        android:text="feito por Caio R."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
