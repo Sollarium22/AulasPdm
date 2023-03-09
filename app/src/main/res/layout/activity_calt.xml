@@ -15,7 +15,8 @@
         android:layout_marginTop="208dp"
         android:text="+"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/bNum10"
@@ -25,7 +26,8 @@
         android:layout_marginTop="508dp"
         android:text="="
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/bNum11"
@@ -35,7 +37,8 @@
         android:layout_marginTop="208dp"
         android:text="-"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/bNum12"
@@ -45,7 +48,8 @@
         android:layout_marginTop="356dp"
         android:text="/"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/bNum13"
@@ -55,7 +59,8 @@
         android:layout_marginTop="356dp"
         android:text="*"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/button11"
@@ -65,7 +70,8 @@
         android:layout_marginTop="658dp"
         android:text="Voltar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:id="@+id/editTextNumber"
@@ -79,7 +85,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/tResult"
@@ -90,6 +96,6 @@
         android:text="               "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="HardcodedText,SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

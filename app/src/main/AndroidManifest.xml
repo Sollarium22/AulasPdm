@@ -24,6 +24,12 @@
             android:name=".Rodar"
             android:exported="false" />
         <activity
+            android:name=".CalT"
+            android:exported="false" />
+        <activity
+            android:name=".CalC"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
