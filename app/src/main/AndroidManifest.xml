@@ -21,7 +21,7 @@
             android:name=".Ranking"
             android:exported="false" />
         <activity
-            android:name=".Logar"
+            android:name=".CalBasi"
             android:exported="false" />
         <activity
             android:name=".Cadastrar"
