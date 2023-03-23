@@ -24,7 +24,7 @@ public class CalBasi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calbasi);
 
-        et1 = findViewById(R.id.et1);
+
         et2 = findViewById(R.id.et2);
         result = findViewById(R.id.tResult);
         mais = findViewById(R.id.soma);
